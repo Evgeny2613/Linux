@@ -1,0 +1,59 @@
+   0 mkdir --help
+   1 cd
+   2 cd /home/
+   3 ls
+   4 ls -a
+   5 ls -a /etc/
+   6 ls -a /
+   7 mkdir user1
+   8 sl
+   9 ls
+  10 cd user1/
+  11 mkdir task1
+  12 cd task1/
+  13 pwd
+  14 touch file1.txt
+  15 ls
+  16 cd
+  17 ls -a /home/user1/task1/
+  18 ls /home/user1/task1/
+  19 cd /home/user1/task1/
+  20 ls
+  21 cd
+  22 ls
+  23 ls /
+  24 cd /home/user1/task1/
+  25 ls /home/user1/task1/
+  26 ls -l /home/user1/task1/
+  27 clear
+  28 cd
+  29 clear
+  30 cd /home/user1/task1/
+  31 tree
+  32 cd ..
+  33 tree
+  34 cd
+  35 tree
+  36 cd /home/
+  37 tree
+  38 clear
+  39 cd
+  40 mkdir -p /home/user2/task2 /home/user2/task3
+  41 ls /home/user2/
+  42 touch /home/user2/task2/file2.txt
+  43 ls /home/user2/task2/
+  44 cp /home/user2/task2/file2.txt /opt/file.txt
+  45 ls /opt
+  46 ls /opt/
+  47 cp /home/user2 /home/user123
+  48 mv /home/user2 /home/user123
+  49 ls /home/user2
+  50 ls /home/
+  51 ls /home
+  52 rm /opt/file.txt 
+  53 ls /opt/
+  54 cd opt
+  55 cd /opt/
+  56 history > /tmp/history_linux_lesson_2.txt
+  57 export_file /tmp/history_linux_lesson_2.txt
+
